@@ -12,7 +12,7 @@ body {
 }
 
 #container {
-    background: #ede9cc;
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -63,7 +63,7 @@ body {
 }
 
 #menu-locais {
-    border-bottom: 1 px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
     border-top: 1px solid #b5ab56;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -86,4 +86,59 @@ a.reserva {
     color: #fff5b0;
     padding: 5px 10px;
     float: right;
+}
+
+#menu {
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#navegacao {
+    float: left;
+}
+
+ul#navegacao a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover {
+    background: #fdf6be;
+}
+
+.depoimento {
+    width: 225px;
+    height: 164px;
+    float: right;
+}
+
+/* Area de conteudos
+*/
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0px;
+}
+
+#area-lateral {
+    float: right;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape {
+    clear: both;
 }
